@@ -1,0 +1,23 @@
+{
+    "Memcheck_06_3BillsCondensed01_page_0002": {
+        "exitcode": -6, 
+        "memory": [], 
+        "options": "-ocr -layout english", 
+        "stderr": "terminate called after throwing an instance of 'std::logic_error'\n  what():  PHOcr can't open file /home/ocrdev/PHOcr-Data/phocr_trained_data/phocrdata/phocrdata/eng.traineddata.gz to load training data\n", 
+        "stdout": "", 
+        "time": 12.59515905380249
+    }, 
+    "Memcheck_BUG_28360_fc-Page0001": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdf -optimize-pdf-file-size japanese /home/ocrdev/Run_PHocr_test/TESTS_memory/Memcheck_BUG_28360_fc-Page0001/test_data/Memcheck_BUG_28360_fc-Page0001.tif\"", 
+                "memory_peak": "48088"
+            }
+        ], 
+        "options": "-pdf -optimize-pdf-file-size japanese", 
+        "stderr": "Can not open file \"/home/ocrdev/PHOcr-Data/phocr_trained_data/phocrdata/phocrdata//pdf.ttf\"!\n", 
+        "stdout": "Exception inside API : Output files is busy or disk fills up\r\n \n", 
+        "time": 2.6136319637298584
+    }
+}

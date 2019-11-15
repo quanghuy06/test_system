@@ -1,0 +1,149 @@
+{
+    "Total time": 1278.6033129692078, 
+    "__execution_time_management__": [
+        {
+            "Clean old results on working directory": 1.7881393432617188e-05
+        }, 
+        {
+            "Update hanoi release packages on test node": 0.084259033203125
+        }, 
+        {
+            "Get release build packages for testing": 1.4773321151733398
+        }, 
+        {
+            "Distribute test cases to workers folder": 13.197129011154175
+        }, 
+        {
+            "Initial workers": 0.0002491474151611328
+        }, 
+        {
+            "Wake up all workers": 8.171770811080933
+        }, 
+        {
+            "Working on virtual machines": 1255.519003868103
+        }, 
+        {
+            "Get status of system": 0.0002601146697998047
+        }, 
+        {
+            "Arrange test results from test virtual machines": 0.14629507064819336
+        }, 
+        {
+            "Total time": 1278.603308916092
+        }
+    ], 
+    "__execution_time_on_workers__": {
+        "Ubuntu10.04-32bit-1": [
+            {
+                "Wait for virtual machine get up": 25
+            }, 
+            {
+                "Add shared folder for virtual machine": 0.08760809898376465
+            }, 
+            {
+                "Mount shared folder on virtual machine": 6.390858173370361
+            }, 
+            {
+                "Get Mekong utilities": 3.882767915725708
+            }, 
+            {
+                "Get PHOcr build package": 4.525593042373657
+            }, 
+            {
+                "Get Hanoi build release package": 2.0950751304626465
+            }, 
+            {
+                "Prepare for memory leak check": 0.024525880813598633
+            }, 
+            {
+                "Install packages": 3.0994415283203125e-06
+            }, 
+            {
+                "Send test cases to worker": 23.685178995132446
+            }, 
+            {
+                "Run test on worker": 1144.2116949558258
+            }, 
+            {
+                "Send test result json file to node": 0.25331902503967285
+            }, 
+            {
+                "Combine test result json file on node": 0.0030050277709960938
+            }, 
+            {
+                "Copy test output from to node": 1.9780070781707764
+            }, 
+            {
+                "Combine test cases to final folder": 4.34835410118103
+            }, 
+            {
+                "Compare test output results": 38.33695697784424
+            }, 
+            {
+                "Collect changed and error test cases": 0.08727788925170898
+            }, 
+            {
+                "Total time": 1255.0211369991302
+            }, 
+            {
+                "Stop virtual machine": 0.49744701385498047
+            }
+        ], 
+        "Ubuntu10.04-32bit-2": [
+            {
+                "Wait for virtual machine get up": 25
+            }, 
+            {
+                "Add shared folder for virtual machine": 0.0875389575958252
+            }, 
+            {
+                "Mount shared folder on virtual machine": 6.4106669425964355
+            }, 
+            {
+                "Get Mekong utilities": 3.8592569828033447
+            }, 
+            {
+                "Get PHOcr build package": 4.524710178375244
+            }, 
+            {
+                "Get Hanoi build release package": 2.198992967605591
+            }, 
+            {
+                "Prepare for memory leak check": 0.05007815361022949
+            }, 
+            {
+                "Install packages": 1.0967254638671875e-05
+            }, 
+            {
+                "Send test cases to worker": 19.68514394760132
+            }, 
+            {
+                "Run test on worker": 1033.7826039791107
+            }, 
+            {
+                "Send test result json file to node": 0.23972678184509277
+            }, 
+            {
+                "Combine test result json file on node": 0.0046100616455078125
+            }, 
+            {
+                "Copy test output from to node": 2.052886962890625
+            }, 
+            {
+                "Combine test cases to final folder": 4.291939973831177
+            }, 
+            {
+                "Compare test output results": 45.95328998565674
+            }, 
+            {
+                "Collect changed and error test cases": 0.09903907775878906
+            }, 
+            {
+                "Total time": 1148.3481659889221
+            }, 
+            {
+                "Stop virtual machine": 0.6940948963165283
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "FULL_COLOR_30_PAGES": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pptx english /home/test/TESTS_release/FULL_COLOR_30_PAGES/test_data/FULL_COLOR_30_PAGES.tif\"", 
+                "memory_peak": "278148"
+            }
+        ], 
+        "options": "-pptx english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 133.54220795631409
+    }, 
+    "UNIT_TEST_PHOCR_CANCELLATION": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/66 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 479.53400897979736
+    }
+}

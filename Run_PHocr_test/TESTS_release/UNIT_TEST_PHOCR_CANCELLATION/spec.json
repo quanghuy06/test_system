@@ -1,0 +1,99 @@
+{
+    "_id": "UNIT_TEST_PHOCR_CANCELLATION", 
+    "binary_test_information": {
+        "binary_name": "phocrtests", 
+        "output": [
+            {
+                "comparator": "ignore", 
+                "name": "stdout_data.unit_test_data"
+            }, 
+            {
+                "comparator": "ignore", 
+                "name": "stderr_data.unit_test_data"
+            }
+        ], 
+        "test_command": "phocrtests --test-data-path TEST_DATA/ --gtest_filter=PHOcrDocumentSetCancelDecisionMethodTest.*"
+    }, 
+    "component": "binary_test", 
+    "enable": true, 
+    "error_flags": {
+        "linux": false, 
+        "windows": false
+    }, 
+    "functionalities": [], 
+    "history_data": {
+        "linux": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {
+                "3": {
+                    "Memory peak": -1
+                }
+            }, 
+            "tesseract": {}
+        }, 
+        "windows": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {}, 
+            "tesseract": {}
+        }
+    }, 
+    "product": "phocr", 
+    "tags": {
+        "BugNumbers": [], 
+        "CommandLineOptions": "", 
+        "DocumentName": "", 
+        "DocumentPage": 0, 
+        "DocumentType": "book", 
+        "GetAccuracy": false, 
+        "HasBarcode": false, 
+        "HasChart": false, 
+        "HasContrast": false, 
+        "HasImage": true, 
+        "HasLogoCompany": false, 
+        "HasTable": true, 
+        "HasTextbox": false, 
+        "HasWaterMask": false, 
+        "Is200dpi": false, 
+        "Is300dpi": true, 
+        "IsClippedImage": false, 
+        "IsCourtDocument": false, 
+        "IsDeskew": false, 
+        "IsETDefault": false, 
+        "IsExcel": false, 
+        "IsExtremeTest": false, 
+        "IsFaxDocument": false, 
+        "IsForm": false, 
+        "IsInvoice": false, 
+        "IsLegalDocument": false, 
+        "IsLetter": false, 
+        "IsMainlyText": false, 
+        "IsMemCheckPeak": false, 
+        "IsMemCheckTest": false, 
+        "IsMultiByteLanguage": false, 
+        "IsMultiColumn": false, 
+        "IsMultiPages": false, 
+        "IsPresentation": false, 
+        "IsPrintAsColor": false, 
+        "IsPrintAsGray": false, 
+        "IsPrintAsMono": false, 
+        "IsPurchaseOrder": false, 
+        "IsRotate": false, 
+        "IsUNLV": false, 
+        "Language": [
+            "english"
+        ], 
+        "NonIntegration": false, 
+        "Platform": [
+            "linux", 
+            "windows"
+        ]
+    }, 
+    "weights": {
+        "linux": 480.20259642601013, 
+        "windows": 600.0
+    }
+}

@@ -1,0 +1,64 @@
+Date: 28-11-2018
+Author: HuanLV
+
+This is user guide to clone MekongDB from offical database.
+Used for testing purpose.
+
+NOTE: Attention to [IMPORTANCE] step
+
+1. Presiquite
+  1.1 Installed Mongodb V3.2.9
+
+2. Clone
+  2.1 Copy MekongDB from Ocr3 to your machine
+  > scp -r ocr3@10.116.41.96:/media/ocr3/data/MekongDB <your_db_dir>
+
+  2.2 Start MekongDB with enable authentication mode
+  > mongod --auth --port 27018 --dbpath <your_db_dir>
+
+  2.3 [IMPORTANCE] Change user accounts
+  This is importance step, need to change accout to avoid access directly to
+  origin database.
+  We will delete existed accounts which HAVE "readWrite" permission.
+  Then we create new account "guest": "guest" with "readWrite" permission
+  We will use this account to access to database.
+
+  Access to your database with admin account
+  Start a mongo client:
+  > mongo -u <admin_account> -p <password> --port 27018 --authenticationDatabase Mekong
+
+  You will access to terminal. Change database to Mekong
+  > use Mekong
+  > db.dropUser("jenkins")
+  > db.dropUser("manager")
+
+  > db.createUser({user: "guest", pwd: "guest", roles: [{role: "readWrite", db: "Mekong"}]})
+
+  then press Ctrl + C to exit.
+
+  Test: start mongo client with "guest" account
+  > mongo -u "guest" -p "guest" --port 27018 --authenticationDatabase Mekong
+  > use Mekong
+  > db.test_case.findOne({_id: "01_0033"})
+
+  If it print spec of test case 01_0033, your configure is Successful.
+
+  2.4 Change configure in Mekong source code
+
+  Because some old accounts were deleted. So need to update Mekong source code too.
+  Open file: Mekong/utilities/configs/database.py
+  change from:
+    class DbConfig:
+      HOST = "10.116.41.96"
+      PORT = 27017
+      DB_NAME = "Mekong"
+      ...
+
+  to:
+    class DbConfig:
+      HOST = <your_machine_ip>
+      PORT = 27018
+      DB_NAME = "Mekong"
+      ...
+
+DONE!

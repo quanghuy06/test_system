@@ -1,0 +1,16 @@
+{
+	"job_name" : "PHOcr-EngineeringTest",
+	"project" : "PHOcr",
+	"refspec" : "refs/changes/84/384/6",
+	"email" : "tai.phungdinh@toshiba-tsdv.com",
+	"windows_disable" : true,
+	"is_et" : true,
+	"gerrit" : {
+		"commit_message" : "",
+		"comment" : ""
+	},
+	"build_number" : "768",
+	"phocr_delta": "50",
+	"hanoi_delta": "13",
+	"branch": "master"
+}

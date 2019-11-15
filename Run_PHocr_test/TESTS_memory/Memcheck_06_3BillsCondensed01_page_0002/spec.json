@@ -1,0 +1,98 @@
+{
+    "_id": "Memcheck_06_3BillsCondensed01_page_0002", 
+    "component": "PHOcrExe", 
+    "enable": true, 
+    "error_flags": {
+        "linux": false, 
+        "windows": false
+    }, 
+    "functionalities": [
+        "ocr", 
+        "segmentation"
+    ], 
+    "history_data": {
+        "linux": {
+            "abbyy_client": {
+                "1": {
+                    "Total characters bounding box": 1773, 
+                    "Total errors bounding box": 102
+                }
+            }, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_on_windows": {}, 
+            "phocr_test_machine": {
+                "3": {
+                    "Memory peak": 249900
+                }
+            }, 
+            "tesseract": {}
+        }, 
+        "windows": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {}, 
+            "tesseract": {}
+        }
+    }, 
+    "product": "phocr", 
+    "tags": {
+        "BugNumbers": [
+            ""
+        ], 
+        "CommandLineOptions": "", 
+        "DocumentName": "", 
+        "DocumentPage": 0, 
+        "DocumentType": "invoice", 
+        "GetAccuracy": false, 
+        "HasBarcode": true, 
+        "HasChart": false, 
+        "HasContrast": true, 
+        "HasImage": true, 
+        "HasLogoCompany": true, 
+        "HasTable": true, 
+        "HasTextbox": true, 
+        "HasWaterMask": false, 
+        "Is200dpi": false, 
+        "Is300dpi": true, 
+        "IsClippedImage": false, 
+        "IsCourtDocument": false, 
+        "IsDeskew": false, 
+        "IsETDefault": true, 
+        "IsETDefaultWindows": false, 
+        "IsError": false, 
+        "IsExcel": false, 
+        "IsExtremeTest": false, 
+        "IsFaxDocument": false, 
+        "IsForm": false, 
+        "IsInvoice": true, 
+        "IsLegalDocument": false, 
+        "IsLetter": false, 
+        "IsMainlyText": false, 
+        "IsMemCheckPeak": false, 
+        "IsMemCheckTest": true, 
+        "IsMultiByteLanguage": false, 
+        "IsMultiColumn": true, 
+        "IsMultiPages": false, 
+        "IsPresentation": false, 
+        "IsPrintAsColor": false, 
+        "IsPrintAsGray": false, 
+        "IsPrintAsMono": false, 
+        "IsPurchaseOrder": false, 
+        "IsRotate": false, 
+        "IsUNLV": false, 
+        "Language": [
+            "english"
+        ], 
+        "NonIntegration": false, 
+        "NonIntegrationWindows": true, 
+        "Platform": [
+            "linux"
+        ]
+    }, 
+    "weights": {
+        "linux": 72.44386506080627, 
+        "windows": 1
+    }
+}

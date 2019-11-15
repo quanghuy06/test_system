@@ -1,0 +1,65 @@
+
+[ocr2][11/14/2019 10:52:44] >>> Clean old results on working directory
+[ocr2][11/14/2019 10:52:44] End of step Clean old results on working directory successfully: 1.78813934326e-05s
+[ocr2][11/14/2019 10:52:44] >>> Update data for build packages on node
+[ocr2][11/14/2019 10:52:44] >>> Update hanoi release packages on test node
+[ocr2][11/14/2019 10:52:44] End of step Update hanoi release packages on test node successfully: 0.0842590332031s
+[ocr2][11/14/2019 10:52:44] >>> Get release build packages for testing
+[ocr2][11/14/2019 10:52:46] End of step Get release build packages for testing successfully: 1.47733211517s
+[ocr2][11/14/2019 10:52:46] >>> Prepare test cases on node
+[ocr2][11/14/2019 10:52:46] >>> Distribute test cases to workers folder
+[ocr2][11/14/2019 10:52:46] [Ubuntu10.04-32bit-2][1/20] FULL_COLOR_70_PAGES
+[ocr2][11/14/2019 10:52:49] [Ubuntu10.04-32bit-2][2/20] Memcheck_ROTATE_pdf_2_pages_01
+[ocr2][11/14/2019 10:52:49] [Ubuntu10.04-32bit-2][3/20] Memcheck_FileSizeOpt_PDF_deskew_orientation_1page_01
+[ocr2][11/14/2019 10:52:49] [Ubuntu10.04-32bit-2][4/20] Memcheck_A_12076_Japanese014_Page0002_32bitdepth
+[ocr2][11/14/2019 10:52:49] [Ubuntu10.04-32bit-2][5/20] UNIT_TEST_PHOcrDocumentExportTest
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][6/20] Memcheck_Web_api_auto_color_pdf_optm_deskew_orientation
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][7/20] Memcheck_Web_api_auto_color_pdf_optm
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][8/20] Memcheck_FileSizeOpt_PDFA_PHOTO_HALFTONE_deskew_orientation_12_D-011-e-STUDIOdatasheet4pages-C-300_page_0003
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][9/20] Memcheck_FileSizeOpt_PDFA_HALFTONE_deskew_orientation_11_D-011-e-STUDIOdatasheet4pages-C-300_page_0002
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][10/20] Bug_28153_PDF_wrong_scale_size_01_0033
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][11/20] 02_0281
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][12/20] ZonalOCR_NITTSU_Page0001_zone0
+[ocr2][11/14/2019 10:52:50] [Ubuntu10.04-32bit-2][13/20] ZonalOCR_SEKSUN_Page0001_zone0
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][14/20] 25_Text_Graph_2_000
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][15/20] 24_Text_Graph_000
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][16/20] 32_Text_Table_000
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][17/20] PDF_FileSizeOptimisation_PDF_deskew_orientation_59_Italian_Testfile_1
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][18/20] PDF_FileSizeOptimisation_PDF_57_German_Testfile_1
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][19/20] ZonalOCR_AICL_Page0004_zone7
+[ocr2][11/14/2019 10:52:51] [Ubuntu10.04-32bit-2][20/20] 57_German_Testfile_1
+[ocr2][11/14/2019 10:52:52] [Ubuntu10.04-32bit-1][1/17] FULL_COLOR_60_PAGES
+[ocr2][11/14/2019 10:52:54] [Ubuntu10.04-32bit-1][2/17] FULL_COLOR_50_PAGES
+[ocr2][11/14/2019 10:52:55] [Ubuntu10.04-32bit-1][3/17] BUG_28285_41-pager
+[ocr2][11/14/2019 10:52:56] [Ubuntu10.04-32bit-1][4/17] Memcheck_FileSizeOpt_PDF_deskew_orientation_A4_300DPI_GS_SinglePage_tif
+[ocr2][11/14/2019 10:52:56] [Ubuntu10.04-32bit-1][5/17] Memcheck_PDFA_06_3BillsCondensed01_page_0002
+[ocr2][11/14/2019 10:52:56] [Ubuntu10.04-32bit-1][6/17] Memcheck_Web_api_gray_pdfa_halftone_optm_deskew_orientation
+[ocr2][11/14/2019 10:52:57] [Ubuntu10.04-32bit-1][7/17] Memcheck_Web_api_gray_pdfa_halftone_optm
+[ocr2][11/14/2019 10:52:57] [Ubuntu10.04-32bit-1][8/17] Memcheck_Web_api_gray_pdfa_bin_optm
+[ocr2][11/14/2019 10:52:57] [Ubuntu10.04-32bit-1][9/17] UNIT_TEST_PHOcrSetting_OCRMultiPagesInParallelTest
+[ocr2][11/14/2019 10:52:57] [Ubuntu10.04-32bit-1][10/17] Single_File_10_PAGES
+[ocr2][11/14/2019 10:52:58] [Ubuntu10.04-32bit-1][11/17] Memcheck_Excel_23_Table_000_PoC_FinalTarget1
+[ocr2][11/14/2019 10:52:58] [Ubuntu10.04-32bit-1][12/17] NSW-Multi-AP-with-PO-Invoice-19052015113740
+[ocr2][11/14/2019 10:52:58] [Ubuntu10.04-32bit-1][13/17] 59_Italian_Testfile_1
+[ocr2][11/14/2019 10:52:58] [Ubuntu10.04-32bit-1][14/17] 55_French_Testfile_1
+[ocr2][11/14/2019 10:52:58] [Ubuntu10.04-32bit-1][15/17] UNIT_TEST_PHOcrDocumentConstructorTest
+[ocr2][11/14/2019 10:52:59] [Ubuntu10.04-32bit-1][16/17] NO_OCR_PDF_PDFA_25_Text_Graph_2_000
+[ocr2][11/14/2019 10:52:59] [Ubuntu10.04-32bit-1][17/17] UNIT_TEST_PHOcrSetting_MemoryPeakThresholdTest
+[ocr2][11/14/2019 10:52:59] 
+Total test case in ocr2: 37
+[ocr2][11/14/2019 10:52:59] End of step Distribute test cases to workers folder successfully: 13.1971290112s
+[ocr2][11/14/2019 10:52:59] >>> Initial workers
+[ocr2][11/14/2019 10:52:59] Workers:
+[ocr2][11/14/2019 10:52:59] Ubuntu10.04-32bit-2: Working on linux
+[ocr2][11/14/2019 10:52:59] Ubuntu10.04-32bit-1: Working on linux
+[ocr2][11/14/2019 10:52:59] End of step Initial workers successfully: 0.000249147415161s
+[ocr2][11/14/2019 10:52:59] >>> Wake up all workers
+[ocr2][11/14/2019 10:53:07] End of step Wake up all workers successfully: 8.17177081108s
+[ocr2][11/14/2019 10:53:07] >>> Working on virtual machines
+[ocr2][11/14/2019 11:14:03] End of step Working on virtual machines successfully: 20.0m 55.5190038681s
+[ocr2][11/14/2019 11:14:03] >>> Get status of system
+[ocr2][11/14/2019 11:14:03] End of step Get status of system successfully: 0.0002601146698s
+[ocr2][11/14/2019 11:14:03] >>> Arrange test results from test virtual machines
+[ocr2][11/14/2019 11:14:03] [1/2] Combine results of Ubuntu10.04-32bit-2
+[ocr2][11/14/2019 11:14:03] [2/2] Combine results of Ubuntu10.04-32bit-1
+[ocr2][11/14/2019 11:14:03] End of step Arrange test results from test virtual machines successfully: 0.146295070648s

@@ -1,0 +1,28 @@
+{
+    "Memcheck_06_3BillsCondensed01_page_0002": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-ocr -layout english /home/test/TESTS_memory/Memcheck_06_3BillsCondensed01_page_0002/test_data/06_3BillsCondensed01_page_0002.bmp\"", 
+                "memory_peak": "249928"
+            }
+        ], 
+        "options": "-ocr -layout english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 75.687472105026245
+    }, 
+    "Memcheck_BUG_28360_fc-Page0001": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdf -optimize-pdf-file-size japanese /home/test/TESTS_memory/Memcheck_BUG_28360_fc-Page0001/test_data/Memcheck_BUG_28360_fc-Page0001.tif\"", 
+                "memory_peak": "391216"
+            }
+        ], 
+        "options": "-pdf -optimize-pdf-file-size japanese", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 71.23900294303894
+    }
+}

@@ -1,0 +1,731 @@
+Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method_and_process
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method_and_process
+File not found '/home/test/e7968b1d-19c6-43e4-bc07-d203d893a4be_test_UNIT_TEST_PHOCR_CANCELLATION_linux/15735330776070.txt'
+==> Can't change base name to 'tmp'
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_cancel_decision_method_and_process
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method_and_process
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method_and_process
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.should_success_when_set_empty_cancel_decision_method_and_process
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_ocr_text
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_ocr_text
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_ocr_text
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_bounding_box_text
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_bounding_box_text
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_bounding_box_text
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_xml
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_xml
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_xml
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_pdf
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_pdf
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_pdf
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_no_ocr_pdf
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_no_ocr_pdf
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_no_ocr_pdf
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_ocr_text
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_ocr_text
+File not found '/home/test/e7968b1d-19c6-43e4-bc07-d203d893a4be_test_UNIT_TEST_PHOCR_CANCELLATION_linux/15735330854610.txt'
+==> Can't change base name to '01_0033.jpg'
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_ocr_text
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_bounding_box_text
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_bounding_box_text
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_bounding_box_text
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_xml
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_xml
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_xml
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_pdf
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_pdf
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_pdf
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_no_ocr_pdf
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_no_ocr_pdf
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_no_ocr_pdf
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx_to_check_memory_leak
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx_to_check_memory_leak
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immedially_when_export_docx_to_check_memory_leak
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_never_cancelled_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_4_pages_to_check_memory_leak
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_4_pages_to_check_memory_leak
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_4_pages_to_check_memory_leak
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_4_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_4_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_4_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_immediately_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_1000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_2000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_3000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_4000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_5000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_6000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_7000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_8000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_9000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_10000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_11000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_12000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_13000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_14000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_15000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_16000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_17000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_17000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_17000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_18000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_18000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_18000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_19000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_19000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_19000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========Note: Google Test filter = PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_20000ms_when_export_docx_with_10_pages
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PHOcrDocumentSetCancelDecisionMethodTest
+[ RUN      ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_20000ms_when_export_docx_with_10_pages
+[       OK ] PHOcrDocumentSetCancelDecisionMethodTest.PHOcr_is_cancelled_after_20000ms_when_export_docx_with_10_pages
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran.
+[  PASSED  ] 1 test.
+
+
+==========

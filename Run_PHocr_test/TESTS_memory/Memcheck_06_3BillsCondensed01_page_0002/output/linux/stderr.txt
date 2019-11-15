@@ -1,0 +1,2 @@
+terminate called after throwing an instance of 'std::logic_error'
+  what():  PHOcr can't open file /home/ocrdev/PHOcr-Data/phocr_trained_data/phocrdata/phocrdata/eng.traineddata.gz to load training data

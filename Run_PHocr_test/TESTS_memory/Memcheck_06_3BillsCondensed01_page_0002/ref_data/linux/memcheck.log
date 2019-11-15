@@ -1,0 +1,54 @@
+==24798== Memcheck, a memory error detector
+==24798== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==24798== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==24798== Command: /home/test/PHOcr_C2210_D477_linux_memory/bin/PHOcrExe -ocr -layout english /home/test/TESTS_memory/Memcheck_06_3BillsCondensed01_page_0002/test_data/06_3BillsCondensed01_page_0002.bmp
+==24798== Parent PID: 24797
+==24798== 
+==24798== Thread 2:
+==24798== Conditional jump or move depends on uninitialised value(s)
+==24798==    at 0x445F82F: ??? (in /lib/tls/i686/cmov/libc-2.11.1.so)
+==24798==    by 0x4463D8A: strxfrm_l (in /lib/tls/i686/cmov/libc-2.11.1.so)
+==24798==    by 0x42B67F6: std::collate<char>::_M_transform(char*, char const*, unsigned int) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libstdc++.so.6)
+==24798==    by 0x4308AFC: std::collate<char>::do_transform(char const*, char const*) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libstdc++.so.6)
+==24798==    by 0x4ED010D: boost::re_detail_107000::cpp_regex_traits_implementation<char>::transform(char const*, char const*) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED0B5E: unsigned int boost::re_detail_107000::find_sort_syntax<boost::re_detail_107000::cpp_regex_traits_implementation<char>, char>(boost::re_detail_107000::cpp_regex_traits_implementation<char> const*, char*) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED2D4D: boost::re_detail_107000::cpp_regex_traits_implementation<char>::init() (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED7267: boost::object_cache<boost::re_detail_107000::cpp_regex_traits_base<char>, boost::re_detail_107000::cpp_regex_traits_implementation<char> >::do_get(boost::re_detail_107000::cpp_regex_traits_base<char> const&, unsigned int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4EE102C: boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x416F28F: utility::check_fixed_pitch_lang(std::string) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libutility.so)
+==24798==    by 0x495A0E2: tesseract::Tesseract::recog_all_words(PAGE_RES*, ETEXT_DESC*, TBOX const*, char const*, int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libocrengine.so)
+==24798==    by 0x4BE4CEE: tesseract::TessBaseAPI::Recognize(ETEXT_DESC*, Pix**, Pix**, Pix**, utility::BlockElementLevel) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libocrengine.so)
+==24798== 
+==24798== Conditional jump or move depends on uninitialised value(s)
+==24798==    at 0x445F839: ??? (in /lib/tls/i686/cmov/libc-2.11.1.so)
+==24798==    by 0x4463D8A: strxfrm_l (in /lib/tls/i686/cmov/libc-2.11.1.so)
+==24798==    by 0x42B67F6: std::collate<char>::_M_transform(char*, char const*, unsigned int) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libstdc++.so.6)
+==24798==    by 0x4308AFC: std::collate<char>::do_transform(char const*, char const*) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libstdc++.so.6)
+==24798==    by 0x4ED010D: boost::re_detail_107000::cpp_regex_traits_implementation<char>::transform(char const*, char const*) const (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED0BF1: unsigned int boost::re_detail_107000::find_sort_syntax<boost::re_detail_107000::cpp_regex_traits_implementation<char>, char>(boost::re_detail_107000::cpp_regex_traits_implementation<char> const*, char*) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED2D4D: boost::re_detail_107000::cpp_regex_traits_implementation<char>::init() (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4ED7267: boost::object_cache<boost::re_detail_107000::cpp_regex_traits_base<char>, boost::re_detail_107000::cpp_regex_traits_implementation<char> >::do_get(boost::re_detail_107000::cpp_regex_traits_base<char> const&, unsigned int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x4EE102C: boost::basic_regex<char, boost::regex_traits<char, boost::cpp_regex_traits<char> > >::do_assign(char const*, char const*, unsigned int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libboost_regex.so.1.70.0)
+==24798==    by 0x416F28F: utility::check_fixed_pitch_lang(std::string) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libutility.so)
+==24798==    by 0x495A0E2: tesseract::Tesseract::recog_all_words(PAGE_RES*, ETEXT_DESC*, TBOX const*, char const*, int) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libocrengine.so)
+==24798==    by 0x4BE4CEE: tesseract::TessBaseAPI::Recognize(ETEXT_DESC*, Pix**, Pix**, Pix**, utility::BlockElementLevel) (in /home/test/PHOcr_C2210_D477_linux_memory/lib/libocrengine.so)
+==24798== 
+==24798== 
+==24798== HEAP SUMMARY:
+==24798==     in use at exit: 1,619,286 bytes in 48 blocks
+==24798==   total heap usage: 3,939,222 allocs, 3,939,174 frees, 807,010,676 bytes allocated
+==24798== 
+==24798== LEAK SUMMARY:
+==24798==    definitely lost: 0 bytes in 0 blocks
+==24798==    indirectly lost: 0 bytes in 0 blocks
+==24798==      possibly lost: 0 bytes in 0 blocks
+==24798==    still reachable: 1,619,286 bytes in 48 blocks
+==24798==                       of which reachable via heuristic:
+==24798==                         stdstring          : 154 bytes in 10 blocks
+==24798==         suppressed: 0 bytes in 0 blocks
+==24798== Reachable blocks (those to which a pointer was found) are not shown.
+==24798== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==24798== 
+==24798== For counts of detected and suppressed errors, rerun with: -v
+==24798== Use --track-origins=yes to see where uninitialised values come from
+==24798== ERROR SUMMARY: 4 errors from 2 contexts (suppressed: 58 from 11)

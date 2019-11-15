@@ -1,0 +1,89 @@
+{
+    "_id": "FULL_COLOR_30_PAGES", 
+    "component": "PHOcrExe", 
+    "enable": true, 
+    "error_flags": {
+        "linux": false, 
+        "windows": false
+    }, 
+    "functionalities": [
+        "export_pptx"
+    ], 
+    "history_data": {
+        "linux": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {
+                "3": {
+                    "Memory peak": 283168
+                }
+            }, 
+            "tesseract": {}
+        }, 
+        "windows": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {}, 
+            "tesseract": {}
+        }
+    }, 
+    "product": "phocr", 
+    "tags": {
+        "BugNumbers": [
+            ""
+        ], 
+        "CommandLineOptions": "", 
+        "DocumentName": "", 
+        "DocumentPage": 0, 
+        "DocumentType": "magazine", 
+        "GetAccuracy": false, 
+        "HasBarcode": false, 
+        "HasChart": false, 
+        "HasContrast": false, 
+        "HasImage": false, 
+        "HasLogoCompany": false, 
+        "HasTable": false, 
+        "HasTextbox": false, 
+        "HasWaterMask": false, 
+        "Is200dpi": false, 
+        "Is300dpi": true, 
+        "IsClippedImage": false, 
+        "IsCourtDocument": false, 
+        "IsDeskew": false, 
+        "IsETDefault": false, 
+        "IsExcel": false, 
+        "IsExtremeTest": false, 
+        "IsFaxDocument": false, 
+        "IsForm": false, 
+        "IsInvoice": false, 
+        "IsLegalDocument": false, 
+        "IsLetter": false, 
+        "IsMainlyText": false, 
+        "IsMemCheckPeak": false, 
+        "IsMemCheckTest": false, 
+        "IsMultiByteLanguage": false, 
+        "IsMultiColumn": false, 
+        "IsMultiPages": true, 
+        "IsPresentation": false, 
+        "IsPrintAsColor": false, 
+        "IsPrintAsGray": false, 
+        "IsPrintAsMono": false, 
+        "IsPurchaseOrder": false, 
+        "IsRotate": false, 
+        "IsUNLV": false, 
+        "Language": [
+            "english"
+        ], 
+        "NonIntegration": false, 
+        "Platform": [
+            "linux", 
+            "windows"
+        ]
+    }, 
+    "weights": {
+        "linux": 134.70755195617676, 
+        "windows": 1500
+    }
+}

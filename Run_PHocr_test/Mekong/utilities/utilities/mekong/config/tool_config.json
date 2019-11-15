@@ -1,0 +1,26 @@
+{
+    "git": {
+        "window": [
+            "C:\\Program Files\\Git\\cmd\\git.exe"
+        ],
+        "linux": [
+            "git"
+        ]
+    },
+    "ssh": {
+        "window": [
+            "C:\\Program Files\\Git\\usr\\bin\\ssh.exe"
+        ],
+        "linux": [
+            "ssh"
+        ]
+    },
+    "svn": {
+        "window": [
+            "C:\\Program Files\\SlikSvn\\bin\\svn.exe"
+        ],
+        "linux": [
+            "svn"
+        ]
+    }
+}

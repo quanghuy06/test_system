@@ -1,0 +1,27 @@
+{
+  "PHOcr": {
+    "type": "git",
+    "repo": "ssh://namld@10.116.41.96:29418/PHOcr",
+    "credentical": "svn_tsdv_credentical"
+  },
+  "PHOcrOnNode": {
+    "type": "git",
+    "repo": "http://phocr:11223344@10.116.41.96:9090/a/PHOcr",
+    "credentical": "svn_tsdv_credentical"
+  },
+  "HanoiWorkflow": {
+    "type": "git",
+    "repo": "ssh://namld@10.116.41.96:29418/HanoiWorkflow",
+    "credentical": "svn_tsdv_credentical"
+  },
+  "boost": {
+    "type": "svn",
+    "repo": "http://10.116.16.21/2016A/ocrpoc/trunk/src/3rd_libraries/boost/",
+    "credentical": "svn_tsdv_credentical"
+  },
+  "leptonica_3rd": {
+    "type": "svn",
+    "repo": "http://10.116.16.21/2016A/ocrpoc/trunk/src/3rd_libraries/leptonica/build",
+    "credentical": "svn_tsdv_credentical"
+  }
+}

@@ -1,0 +1,2 @@
+Command	Memory peak	
+-pdf -optimize-pdf-file-size japanese /home/test/TESTS_memory/Memcheck_BUG_28360_fc-Page0001/test_data/Memcheck_BUG_28360_fc-Page0001.tif	388244	

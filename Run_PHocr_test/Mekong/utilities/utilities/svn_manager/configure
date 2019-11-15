@@ -1,0 +1,4 @@
+[server]
+server=http://10.116.41.162/svn/phocr/
+user=phocr
+pass=11223344

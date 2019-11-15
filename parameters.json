@@ -1,0 +1,17 @@
+{
+    "job_name": "PHOcr-Integration-Test",
+    "project": "PHOcr",
+    "refspec": "refs/changes/04/2404/1",
+    "email": "thanh.lethi@toshiba-tsdv.com",
+    "is_et": false,
+    "is_extreme_test": false,
+    "build_number": "2869",
+    "branch": "TestForMekong",
+    "phocr_delta": "3",
+    "hanoi_delta": 34,
+    "reviewer": "Thanh Le Thi",
+    "gerrit": {
+        "commit_message": "[PHOcr] Empty change for testing on Jenkins97 (10.116.41.97).\n\nChange Details           31/10/2019\n\nNAME\n  Project \\\"PHOcr\\\"\n\nSUMMARY\n  Empty change for testing on Jenkins97 (10.116.41.97).\n\nDESCRIPTION\n  What issue?:\n    Currently, we usually test for PHOcr on Jenkin (96) on branch master.\n    We want to test PHOcr on new Jenkin server 97. But if we use this branch\n    gerrit on Jnkin 96 will get the even and testing for it.\n\n  How to fix?:\n   On new Jenkin 97, set up new branch for gerrit trigger and create PHOcr change\n   then push it to this branch\n\n  What impact by this change?:\n     None\n  How to test?:\n     On new Jenkin 97, set up new branch for gerrit trigger and create PHOcr change\n     then push it to this branch\n\nAPI CHANGE\n  None\n\nARCHITECTURE\n  This change must test on platform: linux\n\nAUTOMATION TEST INFORMATION\nWorkspace:\nTestcase ID:\nFunctionalities:\nProducts:\nComponents:\nTags:\nID Contains:\nPlatforms:\nHanoi version:\nIs Checking MemoryLeak:\nIs Checking MemoryPeak:\nIs build Hanoi:\nHanoi Checkout Command:\nTest ET Default:\n\nChange-Id: Ic75cf8e119b6e5cdab83804dedd76daca185fc6c\n",
+        "comment": ""
+    }
+}

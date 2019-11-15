@@ -1,0 +1,12 @@
+dist/*
+*.bak
+/*.egg-info
+*.pyc
+.project
+.pydevproject
+.coverage
+.settings/
+__pycache__
+.tox/
+.idea
+.cache/

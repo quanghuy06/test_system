@@ -1,0 +1,1 @@
+Can not open file "/home/ocrdev/PHOcr-Data/phocr_trained_data/phocrdata/phocrdata//pdf.ttf"!

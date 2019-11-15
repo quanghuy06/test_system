@@ -1,0 +1,34 @@
+Author: HuanLV
+Created date: 10-10-2018
+History:
+10-10-2018: Init the document
+
+This document defines step to init test-system on OCR3 machine
+
+To start ocr3, we need do following works:
+
+WARNING: Because ocr3 store 2 OS of Linux.
+So we need to choose NOT default OS.
+
+1. Start MekongDB
+
+    sudo mongod --dbpath=/media/ocr3/data1/MekongDB --auth
+
+2. Start visualization test case changed tool
+    cd Videos/automation
+    npm start
+
+3. Start Gerrit
+    su gerrit2
+    cd gerrit/bin
+    ./gerrit start
+
+4. Start Jenkins
+    sudo ./etc/init.d/jenkins start
+
+5. Start samba server
+    echo "Start Samba share server"
+    cd /usr/local/samba/sbin
+    sudo ./nmbd -D
+    sudo ./smbd -D
+    sudo ./winbindd -D

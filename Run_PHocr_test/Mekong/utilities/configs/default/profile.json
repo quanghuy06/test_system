@@ -1,0 +1,421 @@
+{
+  "__IntegrationTest__" : {
+    "__build_release__" : {
+      "ocr2" : [
+        "Ubuntu16.04-64bits-build-1"
+      ]
+    },
+    "__build_memory__" : {
+      "ocr5" : [
+        "Ubuntu16.04-64bits-build-1"
+      ]
+    },
+    "__build_debug__" : {
+      "phocrserver4" : ["Windows8.1-32bit-build-base"]
+    },
+    "__test__" : {
+      "ocr2" : [
+        "Ubuntu10.04-32bit-1",
+        "Ubuntu10.04-32bit-2"
+      ],
+      "ocr5" : [
+        "Ubuntu10.04-32bit-1",
+        "Ubuntu10.04-32bit-2"
+      ]
+    }
+  },
+  "__EngineeringTest__" : {
+    "__build_release__" : {
+      "ocr2" : [
+        "Ubuntu16.04-64bits-build-1"
+      ]
+    },
+    "__build_memory__" : {
+      "ocr5" : [
+        "Ubuntu16.04-64bits-build-1"
+      ]
+    },
+    "__build_debug__" : {
+      "ocr5" : ["Windows8.1-32bit-build-base"]
+    },
+    "__test__" : {
+      "ocr2" : [
+        "Ubuntu10.04-32bit-1",
+        "Ubuntu10.04-32bit-2"
+      ],
+      "ocr5" : [
+        "Ubuntu10.04-32bit-1",
+        "Ubuntu10.04-32bit-2"
+      ]
+    }
+  },
+  "__TestingOnBoard__" : {
+    "__build_release__" : {
+      "ocr2" : [
+        "Ubuntu10.04-32bit-build"
+      ]
+    },
+    "__build_debug__" : {
+    },
+    "__test__" : {
+      "ocr2" : [
+        "Board_01",
+        "Board_02",
+        "Board_03",
+        "Board_04",
+        "Board_05"
+      ]
+    }
+  },
+  "__vms__": {
+    "Ubuntu16.04-64bits-build-1": {
+      "ip": "192.168.1.160",
+      "os": "linux",
+      "username": "ocrdev",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu16.04-64bits-build-2": {
+      "ip": "192.168.1.161",
+      "os": "linux",
+      "username": "ocrdev",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-build" : {
+      "ip": "192.168.1.100",
+      "os": "linux",
+      "username": "ocrdev",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-1" : {
+      "ip" : "192.168.1.11",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-2" : {
+      "ip" : "192.168.1.12",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-3" : {
+      "ip" : "192.168.1.13",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-4" : {
+      "ip" : "192.168.1.14",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-5" : {
+      "ip" : "192.168.1.15",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-6" : {
+      "ip" : "192.168.1.16",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-7" : {
+      "ip" : "192.168.1.17",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-8" : {
+      "ip" : "192.168.1.18",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-9" : {
+      "ip" : "192.168.1.19",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-10" : {
+      "ip" : "192.168.1.20",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-11" : {
+      "ip" : "192.168.1.21",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-12" : {
+      "ip" : "192.168.1.22",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows10-64bit-build": {
+      "ip": "10.116.41.108",
+      "os": "windows",
+      "username": "build",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-13" : {
+      "ip" : "192.168.1.23",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-14" : {
+      "ip" : "192.168.1.24",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-15" : {
+      "ip" : "192.168.1.25",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-16" : {
+      "ip" : "192.168.1.26",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-17" : {
+      "ip" : "192.168.1.27",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-18" : {
+      "ip" : "192.168.1.28",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-19" : {
+      "ip" : "192.168.1.29",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Ubuntu10.04-32bit-20" : {
+      "ip" : "192.168.1.30",
+      "os" : "linux",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-1": {
+      "ip" : "192.168.1.151",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    }
+    ,
+    "Windows-7-32bit-2": {
+      "ip" : "192.168.1.152",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    }
+    ,
+    "Windows-7-32bit-3": {
+      "ip" : "192.168.1.153",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    }
+    ,
+    "Windows-7-32bit-4": {
+      "ip" : "192.168.1.154",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    }
+    ,
+    "Windows-7-32bit-5": {
+      "ip" : "192.168.1.155",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-6": {
+      "ip" : "192.168.1.156",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-7": {
+      "ip" : "192.168.1.157",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-8": {
+      "ip" : "192.168.1.158",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-9": {
+      "ip" : "192.168.1.159",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows-7-32bit-10": {
+      "ip" : "192.168.1.160",
+      "os" : "windows",
+      "username" : "test",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows8.1-32bit-build": {
+      "ip" : "10.116.41.151",
+      "os" : "windows",
+      "username" : "build",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Windows8.1-32bit-build-base": {
+      "ip" : "192.168.1.110",
+      "os" : "windows",
+      "username" : "build",
+      "password": "1",
+      "test_machine": "virtual_machine"
+    },
+    "Board_01": {
+      "ip" : "10.116.41.235",
+      "os" : "linux",
+      "username" : "root",
+      "password": "toshibatec1048",
+      "test_machine": "board"
+    },
+    "Board_02": {
+      "ip" : "10.116.41.236",
+      "os" : "linux",
+      "username" : "root",
+      "password": "toshibatec1048",
+      "test_machine": "board"
+    },
+    "Board_03": {
+      "ip" : "10.116.41.237",
+      "os" : "linux",
+      "username" : "root",
+      "password": "toshibatec1048",
+      "test_machine": "board"
+    },
+    "Board_04": {
+      "ip" : "10.116.41.238",
+      "os" : "linux",
+      "username" : "root",
+      "password": "toshibatec1048",
+      "test_machine": "board"
+    },
+    "Board_05": {
+      "ip" : "10.116.41.239",
+      "os" : "linux",
+      "username" : "root",
+      "password": "toshibatec1048",
+      "test_machine": "board"
+    }
+  },
+  "__nodes__" : {
+    "ocr3" : {
+      "ip" : "10.116.41.96",
+      "os" : "linux",
+      "username" : "ocr3"
+    },
+    "ocr4" : {
+      "ip" : "10.116.41.81",
+      "os" : "linux",
+      "username" : "ocr4"
+    },
+    "ocr5" : {
+      "ip" : "10.116.41.85",
+      "os" : "linux",
+      "username" : "ocr5"
+    },
+    "ocr2" : {
+      "ip" : "10.116.41.97",
+      "os" : "linux",
+      "username" : "ocr2"
+    },
+    "ocr1" : {
+      "ip" : "10.116.41.98",
+      "os" : "linux",
+      "username" : "ocr1"
+    },
+    "phocrserver1" : {
+      "ip" : "10.116.42.31",
+      "os" : "linux",
+      "username" : "phocrserver1"
+    },
+    "phocrserver2" : {
+      "ip" : "10.116.42.42",
+      "os" : "linux",
+      "username" : "phocrserver2"
+    },
+    "huanlvserver" : {
+      "ip" : "10.116.41.89",
+      "os" : "linux",
+      "username" : "huanlv"
+    },
+    "huanlv55" : {
+      "ip" : "10.116.41.55",
+      "os" : "linux",
+      "username" : "huanlv"
+    },
+    "phocrserver3" : {
+      "ip" : "10.116.226.92",
+      "os" : "linux",
+      "username" : "phocrserver3"
+    },
+    "phocrserver4" : {
+      "ip" : "10.116.226.111",
+      "os" : "linux",
+      "username" : "phocrserver4"
+    }
+
+  }
+}

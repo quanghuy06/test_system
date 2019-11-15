@@ -1,0 +1,93 @@
+
+Restoring snapshot 'Clean-State' (e6c664ad-1512-4993-94f0-161d9d3a59b7)
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+
+Waiting for VM "Ubuntu10.04-32bit-1" to power on...
+VM "Ubuntu10.04-32bit-1" has been successfully started.
+
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:32] >>> Add shared folder for virtual machine
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:32] vboxmanage sharedfolder add Ubuntu10.04-32bit-1 --name shared --hostpath /home/ocr2/jenkins/workspace/test/shared --transient
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:32] End of step Add shared folder for virtual machine failed: 0.0876080989838s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:32] >>> Mount shared folder on virtual machine
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:39] sudo -S mount -t vboxsf -o uid=1000,gid=1000 shared /home/test/shared
+# EXECUTE COMMAND:  sudo -S mount -t vboxsf -o uid=1000,gid=1000 shared /home/test/shared
+	Standard ouput:
+
+	Standard error
+		[sudo] password for test: 
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:39] End of step Mount shared folder on virtual machine successfully: 6.39085817337s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:39] >>> Get Mekong utilities
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/Mekong /home/test/Mekong
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:43] End of step Get Mekong utilities successfully: 3.88276791573s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:43] >>> Get PHOcr build package
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/PHOcr_C2404_D3_linux_release /home/test/PHOcr_C2404_D3_linux_release
+	Standard ouput:
+
+	Standard error
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/PHOcr_C2404_D3_linux_memory /home/test/PHOcr_C2404_D3_linux_memory
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:47] End of step Get PHOcr build package successfully: 4.52559304237s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:47] >>> Get Hanoi build release package
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/Hanoi_installer_D34.run /home/test/Hanoi_installer_D34/Hanoi_installer_D34.run
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] End of step Get Hanoi build release package successfully: 2.09507513046s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] >>> Prepare for memory leak check
+# EXECUTE COMMAND:  cp -rn /home/test/Mekong-Data/valgrind-3.13.0 /home/test/Mekong/utilities/tests/executables
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] End of step Prepare for memory leak check successfully: 0.0245258808136s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] >>> Install packages
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] End of step Install packages successfully: 3.09944152832e-06s
+[Ubuntu10.04-32bit-1][11/14/2019 10:53:49] >>> Send test cases to worker
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/TESTS_release /home/test/TESTS_release
+	Standard ouput:
+
+	Standard error
+# EXECUTE COMMAND:  cp -rn /home/test/shared/Ubuntu10.04-32bit-1/TESTS_memory /home/test/TESTS_memory
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 10:54:13] End of step Send test cases to worker successfully: 23.6851789951s
+[Ubuntu10.04-32bit-1][11/14/2019 10:54:13] >>> Run test on worker
+# EXECUTE COMMAND:  export LD_LIBRARY_PATH=/home/test/PHOcr_C2404_D3_linux_release/lib:/home/test/PHOcr-Data/python_portable/Python-3.5.2/lib && export PHOCRDATA_PREFIX=/home/test/PHOcr-Data/phocr_trained_data && chmod +x /home/test/PHOcr-Data/python_portable/Python-3.5.2/bin/python3.5 && export PHOCR_PYTHON_EXECUTABLE_PATH=/home/test/PHOcr-Data/python_portable/Python-3.5.2/bin/python3.5 && python Mekong/utilities/tests/run_all.py -t TESTS_release -b /home/test/PHOcr_C2404_D3_linux_release/bin -o release_test_result.json -p linux && export LD_LIBRARY_PATH=/home/test/PHOcr_C2404_D3_linux_memory/lib:/home/test/PHOcr-Data/python_portable/Python-3.5.2/lib && export PHOCRDATA_PREFIX=/home/test/PHOcr-Data/phocr_trained_data && chmod +x /home/test/PHOcr-Data/python_portable/Python-3.5.2/bin/python3.5 && export PHOCR_PYTHON_EXECUTABLE_PATH=/home/test/PHOcr-Data/python_portable/Python-3.5.2/bin/python3.5 && python Mekong/utilities/tests/run_all.py -t TESTS_memory -b /home/test/PHOcr_C2404_D3_linux_memory/bin -o memory_test_result.json -p linux
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] End of step Run test on worker successfully: 19.0m 4.21169495583s
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] >>> Send test result json file to node
+# EXECUTE COMMAND:  cp -rn /home/test/release_test_result.json /home/test/shared/Ubuntu10.04-32bit-1/release_test_result.json
+	Standard ouput:
+
+	Standard error
+# EXECUTE COMMAND:  cp -rn /home/test/memory_test_result.json /home/test/shared/Ubuntu10.04-32bit-1/memory_test_result.json
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] End of step Send test result json file to node successfully: 0.25331902504s
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] >>> Combine test result json file on node
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] End of step Combine test result json file on node successfully: 0.003005027771s
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:17] >>> Copy test output from to node
+# EXECUTE COMMAND:  cp -rn /home/test/TESTS_release /home/test/shared/Ubuntu10.04-32bit-1
+	Standard ouput:
+
+	Standard error
+# EXECUTE COMMAND:  cp -rn /home/test/TESTS_memory /home/test/shared/Ubuntu10.04-32bit-1
+	Standard ouput:
+
+	Standard error
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:19] End of step Copy test output from to node successfully: 1.97800707817s
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:19] >>> Combine test cases to final folder
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:24] End of step Combine test cases to final folder successfully: 4.34835410118s
+[Ubuntu10.04-32bit-1][11/14/2019 11:13:24] >>> Compare test output results
+[Ubuntu10.04-32bit-1][11/14/2019 11:14:02] End of step Compare test output results successfully: 38.3369569778s
+[Ubuntu10.04-32bit-1][11/14/2019 11:14:02] >>> Collect changed and error test cases
+[Ubuntu10.04-32bit-1][11/14/2019 11:14:02] End of step Collect changed and error test cases successfully: 0.0872778892517s
+[Ubuntu10.04-32bit-1][11/14/2019 11:14:02] >>> Stop virtual machine
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+
+[Ubuntu10.04-32bit-1][11/14/2019 11:14:03] End of step Stop virtual machine successfully: 0.497447013855s

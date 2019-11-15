@@ -1,0 +1,2246 @@
+{
+    "02_0281": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 0, 
+            "detail_information": [
+                {
+                    "delete_errors": 0, 
+                    "html_path": "compare_result/02_0281/linux/02_0281jpg_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 4, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 1879, 
+                    "total_errors": 4
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 4, 
+            "total_characters": 1879, 
+            "total_errors": 4
+        }, 
+        "is_changed": false
+    }, 
+    "24_Text_Graph_000": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 237, 
+            "detail_information": [
+                {
+                    "delete_errors": 237, 
+                    "html_path": "compare_result/24_Text_Graph_000/linux/24_Text_Graph_000jpg_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 1, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 1310, 
+                    "total_errors": 238
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 1, 
+            "total_characters": 1310, 
+            "total_errors": 238
+        }, 
+        "is_changed": false
+    }, 
+    "25_Text_Graph_2_000": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 2, 
+            "detail_information": [
+                {
+                    "delete_errors": 2, 
+                    "html_path": "compare_result/25_Text_Graph_2_000/linux/25_Text_Graph_2_000jpg_0_original.html", 
+                    "insert_errors": 2, 
+                    "is_changed": true, 
+                    "replace_errors": 4, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 1402, 
+                    "total_errors": 8
+                }
+            ], 
+            "insert_errors": 2, 
+            "replace_errors": 4, 
+            "total_characters": 1402, 
+            "total_errors": 8
+        }, 
+        "is_changed": false
+    }, 
+    "32_Text_Table_000": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 2, 
+            "detail_information": [
+                {
+                    "delete_errors": 2, 
+                    "html_path": "compare_result/32_Text_Table_000/linux/32_Text_Table_000jpg_0_original.html", 
+                    "insert_errors": 109, 
+                    "is_changed": true, 
+                    "replace_errors": 2, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 339, 
+                    "total_errors": 113
+                }
+            ], 
+            "insert_errors": 109, 
+            "replace_errors": 2, 
+            "total_characters": 339, 
+            "total_errors": 113
+        }, 
+        "is_changed": false
+    }, 
+    "55_French_Testfile_1": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 0, 
+            "detail_information": [
+                {
+                    "delete_errors": 0, 
+                    "html_path": "compare_result/55_French_Testfile_1/linux/55_French_Testfile_1jpg_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 2, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 275, 
+                    "total_errors": 2
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 2, 
+            "total_characters": 275, 
+            "total_errors": 2
+        }, 
+        "is_changed": false
+    }, 
+    "57_German_Testfile_1": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 0, 
+            "detail_information": [
+                {
+                    "delete_errors": 0, 
+                    "html_path": "compare_result/57_German_Testfile_1/linux/57_German_Testfile_1jpg_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": false, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 287, 
+                    "total_errors": 0
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 0, 
+            "total_characters": 287, 
+            "total_errors": 0
+        }, 
+        "is_changed": false
+    }, 
+    "59_Italian_Testfile_1": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 0, 
+            "detail_information": [
+                {
+                    "delete_errors": 0, 
+                    "html_path": "compare_result/59_Italian_Testfile_1/linux/59_Italian_Testfile_1jpg_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 2, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 296, 
+                    "total_errors": 2
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 2, 
+            "total_characters": 296, 
+            "total_errors": 2
+        }, 
+        "is_changed": false
+    }, 
+    "BUG_28285_41-pager": {
+        "compare_change_vs_reference": {
+            "detail_information": {
+                "diff_files": [
+                    "BUG_28285_41-pager.tif.xml"
+                ], 
+                "funny_files": [], 
+                "left_only": [], 
+                "right_only": []
+            }, 
+            "is_stderr_changed": false, 
+            "is_stdout_changed": false, 
+            "title": "Compare folder"
+        }, 
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": true
+    }, 
+    "Bug_28153_PDF_wrong_scale_size_01_0033": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": false
+    }, 
+    "FULL_COLOR_50_PAGES": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": false
+    }, 
+    "FULL_COLOR_60_PAGES": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 208315, 
+            "detail_information": [
+                {
+                    "delete_errors": 3728, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_46_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3728
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_56_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3741, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_18_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3741
+                }, 
+                {
+                    "delete_errors": 3736, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3736
+                }, 
+                {
+                    "delete_errors": 3727, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_33_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3727
+                }, 
+                {
+                    "delete_errors": 3719, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_29_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3719
+                }, 
+                {
+                    "delete_errors": 2162, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_54_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2162
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_47_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 2166, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_59_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2166
+                }, 
+                {
+                    "delete_errors": 3753, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_27_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3753
+                }, 
+                {
+                    "delete_errors": 3737, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_15_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3737
+                }, 
+                {
+                    "delete_errors": 3722, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_49_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3722
+                }, 
+                {
+                    "delete_errors": 2166, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_52_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2166
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_55_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3730, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_14_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3730
+                }, 
+                {
+                    "delete_errors": 3717, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_23_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3717
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_58_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_50_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3718, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_32_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3718
+                }, 
+                {
+                    "delete_errors": 2177, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_57_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2177
+                }, 
+                {
+                    "delete_errors": 3718, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_39_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3718
+                }, 
+                {
+                    "delete_errors": 3730, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_44_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3730
+                }, 
+                {
+                    "delete_errors": 3741, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_45_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3741
+                }, 
+                {
+                    "delete_errors": 3753, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_4_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3753
+                }, 
+                {
+                    "delete_errors": 3769, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_26_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3769
+                }, 
+                {
+                    "delete_errors": 3771, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_41_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3771
+                }, 
+                {
+                    "delete_errors": 3787, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_31_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3787
+                }, 
+                {
+                    "delete_errors": 3744, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_38_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3744
+                }, 
+                {
+                    "delete_errors": 3736, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_19_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3736
+                }, 
+                {
+                    "delete_errors": 3715, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_11_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3715
+                }, 
+                {
+                    "delete_errors": 3742, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_10_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3742
+                }, 
+                {
+                    "delete_errors": 3736, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_2_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3736
+                }, 
+                {
+                    "delete_errors": 3792, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_5_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3792
+                }, 
+                {
+                    "delete_errors": 3698, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_36_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3698
+                }, 
+                {
+                    "delete_errors": 3743, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_48_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3743
+                }, 
+                {
+                    "delete_errors": 3735, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_17_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3735
+                }, 
+                {
+                    "delete_errors": 3714, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_43_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3714
+                }, 
+                {
+                    "delete_errors": 3707, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_42_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3707
+                }, 
+                {
+                    "delete_errors": 3747, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_37_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3747
+                }, 
+                {
+                    "delete_errors": 3710, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_9_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3710
+                }, 
+                {
+                    "delete_errors": 3730, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_25_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3730
+                }, 
+                {
+                    "delete_errors": 3710, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_24_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3710
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_51_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3720, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_8_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3720
+                }, 
+                {
+                    "delete_errors": 3704, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_3_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3704
+                }, 
+                {
+                    "delete_errors": 3748, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_13_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3748
+                }, 
+                {
+                    "delete_errors": 3738, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_1_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3738
+                }, 
+                {
+                    "delete_errors": 3711, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_16_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3711
+                }, 
+                {
+                    "delete_errors": 3755, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_12_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3755
+                }, 
+                {
+                    "delete_errors": 3740, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_30_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3740
+                }, 
+                {
+                    "delete_errors": 2180, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_53_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2180
+                }, 
+                {
+                    "delete_errors": 3719, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_21_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3719
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_34_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 3743, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_22_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3743
+                }, 
+                {
+                    "delete_errors": 3749, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_7_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3749
+                }, 
+                {
+                    "delete_errors": 3744, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_35_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3744
+                }, 
+                {
+                    "delete_errors": 3709, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_20_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3709
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_6_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 3713, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_40_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3713
+                }, 
+                {
+                    "delete_errors": 3728, 
+                    "html_path": "compare_result/FULL_COLOR_60_PAGES/linux/FULL_COLOR_60_PAGEStif_28_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3728
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 0, 
+            "total_characters": 0, 
+            "total_errors": 208315
+        }, 
+        "is_changed": false
+    }, 
+    "FULL_COLOR_70_PAGES": {
+        "compare_reference_vs_ground_truth": {
+            "delete_errors": 230494, 
+            "detail_information": [
+                {
+                    "delete_errors": 3742, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_4_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3742
+                }, 
+                {
+                    "delete_errors": 3738, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_38_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3738
+                }, 
+                {
+                    "delete_errors": 3715, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_26_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3715
+                }, 
+                {
+                    "delete_errors": 3727, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_22_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3727
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_10_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 3737, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_39_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3737
+                }, 
+                {
+                    "delete_errors": 3738, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_25_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3738
+                }, 
+                {
+                    "delete_errors": 3758, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_17_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3758
+                }, 
+                {
+                    "delete_errors": 3721, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_27_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3721
+                }, 
+                {
+                    "delete_errors": 2199, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_60_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2199
+                }, 
+                {
+                    "delete_errors": 3742, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_0_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3742
+                }, 
+                {
+                    "delete_errors": 3744, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_44_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3744
+                }, 
+                {
+                    "delete_errors": 3737, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_7_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3737
+                }, 
+                {
+                    "delete_errors": 3758, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_41_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3758
+                }, 
+                {
+                    "delete_errors": 3720, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_16_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3720
+                }, 
+                {
+                    "delete_errors": 2175, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_52_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2175
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_64_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3736, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_30_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3736
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_29_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 3725, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_33_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3725
+                }, 
+                {
+                    "delete_errors": 2215, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_57_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2215
+                }, 
+                {
+                    "delete_errors": 3746, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_11_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3746
+                }, 
+                {
+                    "delete_errors": 2191, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_62_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2191
+                }, 
+                {
+                    "delete_errors": 2216, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_59_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2216
+                }, 
+                {
+                    "delete_errors": 3726, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_9_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3726
+                }, 
+                {
+                    "delete_errors": 3732, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_24_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3732
+                }, 
+                {
+                    "delete_errors": 2175, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_65_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2175
+                }, 
+                {
+                    "delete_errors": 3727, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_21_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3727
+                }, 
+                {
+                    "delete_errors": 3732, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_35_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3732
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_37_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_19_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 3714, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_48_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3714
+                }, 
+                {
+                    "delete_errors": 3737, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_15_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3737
+                }, 
+                {
+                    "delete_errors": 2186, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_50_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2186
+                }, 
+                {
+                    "delete_errors": 2209, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_53_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2209
+                }, 
+                {
+                    "delete_errors": 3730, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_32_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3730
+                }, 
+                {
+                    "delete_errors": 3758, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_42_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3758
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_54_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 2195, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_56_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2195
+                }, 
+                {
+                    "delete_errors": 3685, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_34_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3685
+                }, 
+                {
+                    "delete_errors": 3730, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_13_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3730
+                }, 
+                {
+                    "delete_errors": 3741, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_12_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3741
+                }, 
+                {
+                    "delete_errors": 3771, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_6_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3771
+                }, 
+                {
+                    "delete_errors": 2161, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_67_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2161
+                }, 
+                {
+                    "delete_errors": 3772, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_46_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3772
+                }, 
+                {
+                    "delete_errors": 3769, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_3_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3769
+                }, 
+                {
+                    "delete_errors": 3737, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_36_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3737
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_1_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_2_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_51_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3709, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_28_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3709
+                }, 
+                {
+                    "delete_errors": 3743, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_23_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3743
+                }, 
+                {
+                    "delete_errors": 3727, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_5_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3727
+                }, 
+                {
+                    "delete_errors": 3746, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_31_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3746
+                }, 
+                {
+                    "delete_errors": 2192, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_66_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2192
+                }, 
+                {
+                    "delete_errors": 3749, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_47_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3749
+                }, 
+                {
+                    "delete_errors": 3739, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_20_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3739
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_49_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 3761, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_8_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3761
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_69_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 3773, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_14_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3773
+                }, 
+                {
+                    "delete_errors": 2170, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_58_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2170
+                }, 
+                {
+                    "delete_errors": 2160, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_61_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2160
+                }, 
+                {
+                    "delete_errors": 2197, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_63_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2197
+                }, 
+                {
+                    "delete_errors": 3729, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_40_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3729
+                }, 
+                {
+                    "delete_errors": 3734, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_45_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3734
+                }, 
+                {
+                    "delete_errors": 2184, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_68_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2184
+                }, 
+                {
+                    "delete_errors": 3724, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_43_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3724
+                }, 
+                {
+                    "delete_errors": 3738, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_18_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 3738
+                }, 
+                {
+                    "delete_errors": 2184, 
+                    "html_path": "compare_result/FULL_COLOR_70_PAGES/linux/FULL_COLOR_70_PAGEStif_55_original.html", 
+                    "insert_errors": 0, 
+                    "is_changed": true, 
+                    "replace_errors": 0, 
+                    "title": "Compare bounding box", 
+                    "total_characters": 0, 
+                    "total_errors": 2184
+                }
+            ], 
+            "insert_errors": 0, 
+            "replace_errors": 0, 
+            "total_characters": 0, 
+            "total_errors": 230494
+        }, 
+        "is_changed": false
+    }, 
+    "Memcheck_A_12076_Japanese014_Page0002_32bitdepth": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 6
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Excel_23_Table_000_PoC_FinalTarget1": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 3
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 4
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_FileSizeOpt_PDFA_HALFTONE_deskew_orientation_11_D-011-e-STUDIOdatasheet4pages-C-300_page_0002": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 9
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_FileSizeOpt_PDFA_PHOTO_HALFTONE_deskew_orientation_12_D-011-e-STUDIOdatasheet4pages-C-300_page_0003": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_FileSizeOpt_PDF_deskew_orientation_1page_01": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 4, 
+                    "errors": 14
+                }, 
+                "definitely lost:": {
+                    "blocks": 4, 
+                    "bytes": 624
+                }, 
+                "indirectly lost:": {
+                    "blocks": 2381, 
+                    "bytes": 89683
+                }, 
+                "possibly lost:": {
+                    "blocks": 1, 
+                    "bytes": 24
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 3, 
+                    "errors": 11
+                }, 
+                "definitely lost:": {
+                    "blocks": 2, 
+                    "bytes": 96
+                }, 
+                "indirectly lost:": {
+                    "blocks": 2383, 
+                    "bytes": 90219
+                }, 
+                "possibly lost:": {
+                    "blocks": 1, 
+                    "bytes": 16
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": true, 
+        "is_failed": true, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_FileSizeOpt_PDF_deskew_orientation_A4_300DPI_GS_SinglePage_tif": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 182
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 34
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_PDFA_06_3BillsCondensed01_page_0002": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 10
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 10
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_ROTATE_pdf_2_pages_01": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 485
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 485
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Web_api_auto_color_pdf_optm": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 34
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 53
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Web_api_auto_color_pdf_optm_deskew_orientation": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 32
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 51
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Web_api_gray_pdfa_bin_optm": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 6
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Web_api_gray_pdfa_halftone_optm": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 6
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 7
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "Memcheck_Web_api_gray_pdfa_halftone_optm_deskew_orientation": {
+        "detail_information": [
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 5
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "reference data"
+            }, 
+            {
+                "ERROR SUMMARY:": {
+                    "contexts": 0, 
+                    "errors": 8
+                }, 
+                "definitely lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "indirectly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "possibly lost:": {
+                    "blocks": 0, 
+                    "bytes": 0
+                }, 
+                "title": "output data"
+            }
+        ], 
+        "is_changed": false, 
+        "is_failed": false, 
+        "title": "Memory check"
+    }, 
+    "NO_OCR_PDF_PDFA_25_Text_Graph_2_000": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": false
+    }, 
+    "NSW-Multi-AP-with-PO-Invoice-19052015113740": {
+        "compare_change_vs_reference": {
+            "detail_information": [
+                {
+                    "detail_office_comparision": [
+                        {
+                            "file name": "NSW Multi AP with PO Invoice-19052015113740.tif.docx", 
+                            "is_changed": true
+                        }
+                    ], 
+                    "is_changed": true, 
+                    "title": "Compare docx file"
+                }
+            ], 
+            "is_stderr_changed": false, 
+            "is_stdout_changed": false
+        }, 
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": true
+    }, 
+    "PDF_FileSizeOptimisation_PDF_57_German_Testfile_1": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": false
+    }, 
+    "PDF_FileSizeOptimisation_PDF_deskew_orientation_59_Italian_Testfile_1": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": []
+        }, 
+        "is_changed": false
+    }, 
+    "Single_File_10_PAGES": {
+        "binary_test": true, 
+        "is_changed": false
+    }, 
+    "UNIT_TEST_PHOcrDocumentConstructorTest": {
+        "binary_test": true, 
+        "is_changed": true
+    }, 
+    "UNIT_TEST_PHOcrDocumentExportTest": {
+        "binary_test": true, 
+        "is_changed": true
+    }, 
+    "UNIT_TEST_PHOcrSetting_MemoryPeakThresholdTest": {
+        "binary_test": true, 
+        "is_changed": false
+    }, 
+    "UNIT_TEST_PHOcrSetting_OCRMultiPagesInParallelTest": {
+        "binary_test": true, 
+        "is_changed": false
+    }, 
+    "ZonalOCR_AICL_Page0004_zone7": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": [
+                {
+                    "html_path": "compare_result/ZonalOCR_AICL_Page0004_zone7/linux/ZonalOCR_AICL_Page0004_zone7.bmp.html", 
+                    "is_changed": true, 
+                    "title": "Compare text file", 
+                    "total_characters": 6, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_AICL_Page0004_zone7/linux/stderr.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_AICL_Page0004_zone7/linux/stdout.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }
+            ], 
+            "total_characters": 6, 
+            "total_errors": 0
+        }, 
+        "is_changed": false
+    }, 
+    "ZonalOCR_NITTSU_Page0001_zone0": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": [
+                {
+                    "html_path": "compare_result/ZonalOCR_NITTSU_Page0001_zone0/linux/ZonalOCR_NITTSU_Page0001_zone0.bmp.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 14, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_NITTSU_Page0001_zone0/linux/stderr.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_NITTSU_Page0001_zone0/linux/stdout.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }
+            ], 
+            "total_characters": 14, 
+            "total_errors": 0
+        }, 
+        "is_changed": false
+    }, 
+    "ZonalOCR_SEKSUN_Page0001_zone0": {
+        "compare_reference_vs_ground_truth": {
+            "detail_information": [
+                {
+                    "html_path": "compare_result/ZonalOCR_SEKSUN_Page0001_zone0/linux/ZonalOCR_SEKSUN_Page0001_zone0.bmp.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 25, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_SEKSUN_Page0001_zone0/linux/stderr.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }, 
+                {
+                    "html_path": "compare_result/ZonalOCR_SEKSUN_Page0001_zone0/linux/stdout.html", 
+                    "is_changed": false, 
+                    "title": "Compare text file", 
+                    "total_characters": 0, 
+                    "total_errors": 0
+                }
+            ], 
+            "total_characters": 25, 
+            "total_errors": 0
+        }, 
+        "is_changed": false
+    }
+}

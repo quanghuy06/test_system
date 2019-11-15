@@ -1,0 +1,49 @@
+Author: HuanLV
+Created date: 04-06-2018
+History:
+04-06-2018: Init the document
+Author: HuanLV
+Created date: 04-06-2018
+History:
+04-06-2018: Init the document
+
+This document defines steps to create new build Windows-8.1-32bit
+
+Install build env for windows-8.1-32bit
+1. Install .Net 4.5.2
+https://www.microsoft.com/en-us/download/details.aspx?id=42642
+
+2. Install Visual Studio 2015 update 3
+   Note: Install all package relate to C++
+
+3. Install Git
+Install latest version of Git (current 2.1.17)
+
+4. Install MobaSSH
+https://mobassh.mobatek.net/download-home-edition.html
+Currently use home edition.
+
+5. Install Python 2.7 latest (current 2.7.15)
+
+6. Install Wix
+    5.1 Enable .Net Framework 3.5 feature
+    5.2 Install Wix installer
+        http://wixtoolset.org/releases/
+        used version: 3.1.11
+    5.3. Install Wix extension for VS2015
+        https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2015Extension
+
+6. Checkout source code PHOcr to C:\Users\[user-name]\ folder
+
+7. Get 3rd party used for both PHOcr and Hanoi
+http://vc1.tsdv.com.vn/2018A/phocr/trunk/src/Phocr-Hanoi%203rd/Phocr-Hanoi%203rd/3rd-party.zip
+
+***Extract this package outside of PHOcr folder
+
+8. Get lxml, PIL library:
+http://vc1.tsdv.com.vn/2018A/phocr/trunk/src/phocr-3rd/3rdparty_python/python2.7.6/
+*** Checkout this library in folder /PHOcr/3rdparty/
+
+7. Checkout source code Hanoi
+TODO: current, does not support for build Hanoi.
+

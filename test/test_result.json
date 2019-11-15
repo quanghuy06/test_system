@@ -1,0 +1,199 @@
+{
+    "55_French_Testfile_1": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-ocr -layout french /home/test/TESTS_release/55_French_Testfile_1/test_data/55_French_Testfile_1.jpg\"", 
+                "memory_peak": "27464"
+            }
+        ], 
+        "options": "-ocr -layout french", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.2859458923339844
+    }, 
+    "59_Italian_Testfile_1": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-ocr -layout italian /home/test/TESTS_release/59_Italian_Testfile_1/test_data/59_Italian_Testfile_1.jpg\"", 
+                "memory_peak": "31728"
+            }
+        ], 
+        "options": "-ocr -layout italian", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.2773468494415283
+    }, 
+    "BUG_28285_41-pager": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-parallel_mode 0 -xml /home/test/TESTS_release/BUG_28285_41-pager/scripts/../test_data/BUG_28285_41-pager.tif\"", 
+                "memory_peak": "157868"
+            }
+        ], 
+        "options": "/home/test/TESTS_release/BUG_28285_41-pager/scripts/timeout -m 250000 /home/test/PHOcr_C2404_D3_linux_release/bin/PHOcrExe -parallel_mode 0 -xml /home/test/TESTS_release/BUG_28285_41-pager/scripts/../test_data/BUG_28285_41-pager.tif", 
+        "stderr": "FINISHED CPU, don't pass over 250000KB", 
+        "stdout": "", 
+        "time": 102.13061308860779
+    }, 
+    "FULL_COLOR_50_PAGES": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-reg_data -ocr english /home/test/TESTS_release/FULL_COLOR_50_PAGES/test_data/FULL_COLOR_50_PAGES.tif\"", 
+                "memory_peak": "149000"
+            }
+        ], 
+        "options": "-reg_data -ocr english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 163.79213976860046
+    }, 
+    "FULL_COLOR_60_PAGES": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-excel -ocr -layout -pdfa english /home/test/TESTS_release/FULL_COLOR_60_PAGES/test_data/FULL_COLOR_60_PAGES.tif\"", 
+                "memory_peak": "319360"
+            }
+        ], 
+        "options": "-excel -ocr -layout -pdfa english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 329.2777359485626
+    }, 
+    "Memcheck_Excel_23_Table_000_PoC_FinalTarget1": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-excel english /home/test/TESTS_memory/Memcheck_Excel_23_Table_000_PoC_FinalTarget1/test_data/Excel_23_Table_000_PoC_FinalTarget1.bmp\"", 
+                "memory_peak": "200004"
+            }
+        ], 
+        "options": "-excel english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 34.54341912269592
+    }, 
+    "Memcheck_FileSizeOpt_PDF_deskew_orientation_A4_300DPI_GS_SinglePage_tif": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdf -deskew -orienation -optimize-pdf-file-size english /home/test/TESTS_memory/Memcheck_FileSizeOpt_PDF_deskew_orientation_A4_300DPI_GS_SinglePage_tif/test_data/Memcheck_FileSizeOpt_PDF_deskew_orientation_A4_300DPI_GS_SinglePage_tif.tif\"", 
+                "memory_peak": "215752"
+            }
+        ], 
+        "options": "-pdf -deskew -orienation -optimize-pdf-file-size english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 91.60830402374268
+    }, 
+    "Memcheck_PDFA_06_3BillsCondensed01_page_0002": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa english /home/test/TESTS_memory/Memcheck_PDFA_06_3BillsCondensed01_page_0002/test_data/PDFA_06_3BillsCondensed01_page_0002.bmp\"", 
+                "memory_peak": "251476"
+            }
+        ], 
+        "options": "-pdfa english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 75.91445207595825
+    }, 
+    "Memcheck_Web_api_gray_pdfa_bin_optm": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa-bin -optimize-pdf-file-size -input_color_mode 1 swedish /home/test/TESTS_memory/Memcheck_Web_api_gray_pdfa_bin_optm/test_data/Memcheck_Web_api_gray_pdfa_bin_optm.tif\"", 
+                "memory_peak": "185516"
+            }
+        ], 
+        "options": "-pdfa-bin -optimize-pdf-file-size -input_color_mode 1 swedish", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 64.29757189750671
+    }, 
+    "Memcheck_Web_api_gray_pdfa_halftone_optm": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa-halftone -optimize-pdf-file-size -input_color_mode 1 swedish /home/test/TESTS_memory/Memcheck_Web_api_gray_pdfa_halftone_optm/test_data/Memcheck_Web_api_gray_pdfa_halftone_optm.tif\"", 
+                "memory_peak": "188912"
+            }
+        ], 
+        "options": "-pdfa-halftone -optimize-pdf-file-size -input_color_mode 1 swedish", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 65.21123099327087
+    }, 
+    "Memcheck_Web_api_gray_pdfa_halftone_optm_deskew_orientation": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa-halftone -optimize-pdf-file-size -input_color_mode 1 -deskew -orientation swedish /home/test/TESTS_memory/Memcheck_Web_api_gray_pdfa_halftone_optm_deskew_orientation/test_data/Memcheck_Web_api_gray_pdfa_halftone_optm_deskew_orientation.tif\"", 
+                "memory_peak": "189160"
+            }
+        ], 
+        "options": "-pdfa-halftone -optimize-pdf-file-size -input_color_mode 1 -deskew -orientation swedish", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 69.92662692070007
+    }, 
+    "NO_OCR_PDF_PDFA_25_Text_Graph_2_000": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa -no-ocr-pdf english /home/test/TESTS_release/NO_OCR_PDF_PDFA_25_Text_Graph_2_000/test_data/NO_OCR_PDF_PDFA_25_Text_Graph_2_000.bmp\"", 
+                "memory_peak": "18364"
+            }
+        ], 
+        "options": "-pdfa -no-ocr-pdf english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.0995488166809082
+    }, 
+    "NSW-Multi-AP-with-PO-Invoice-19052015113740": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-word english /home/test/TESTS_release/NSW-Multi-AP-with-PO-Invoice-19052015113740/test_data/NSW Multi AP with PO Invoice-19052015113740.tif\"", 
+                "memory_peak": "126776"
+            }
+        ], 
+        "options": "-word english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 33.01632499694824
+    }, 
+    "Single_File_10_PAGES": {
+        "exitcode": 0, 
+        "options": "-pdfa-photo-halftone --export-single-file english /home/test/TESTS_release/Single_File_10_PAGES/test_data/Single_File_10_PAGES.tif", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 53.606165170669556
+    }, 
+    "UNIT_TEST_PHOcrDocumentConstructorTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/9 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 0.1660468578338623
+    }, 
+    "UNIT_TEST_PHOcrSetting_MemoryPeakThresholdTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/0 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 0
+    }, 
+    "UNIT_TEST_PHOcrSetting_OCRMultiPagesInParallelTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/7 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 58.8127167224884
+    }
+}

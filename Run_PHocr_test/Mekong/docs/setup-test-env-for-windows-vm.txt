@@ -1,0 +1,28 @@
+Author: HuanLV
+Created date: 04-06-2018
+History:
+04-06-2018: Init the document
+This document defines steps to create new test Windows-7-32bit vm
+from scratch.
+
+NOTE: This document does not tested yet.
+
+1. Install new OS in VirtualBox
+   + Use 'test-PC' for Computer Name
+   + Use 'test' , '1' for username, password of administrator
+
+2. Config 2 core CPU, 2048M of Ram
+
+3. Configure IP
+   For Windows VMs we use range 192.168.1.15*
+
+4. Install Guest Additions CD Image of VirtualBox
+   Install this to support share folder between real machine and virtual machine
+
+5. Create 'Hanoi' directory in C:\Users\test\ folder
+   Consider to remove this step, because we need to update Mekong source code.
+
+6. Install Mobassh
+    https://mobassh.mobatek.net/download-home-edition.html
+    Currently use home edition.
+

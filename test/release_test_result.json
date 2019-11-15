@@ -1,0 +1,121 @@
+{
+    "55_French_Testfile_1": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-ocr -layout french /home/test/TESTS_release/55_French_Testfile_1/test_data/55_French_Testfile_1.jpg\"", 
+                "memory_peak": "27464"
+            }
+        ], 
+        "options": "-ocr -layout french", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.28594589233398438
+    }, 
+    "59_Italian_Testfile_1": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-ocr -layout italian /home/test/TESTS_release/59_Italian_Testfile_1/test_data/59_Italian_Testfile_1.jpg\"", 
+                "memory_peak": "31728"
+            }
+        ], 
+        "options": "-ocr -layout italian", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.27734684944152832
+    }, 
+    "BUG_28285_41-pager": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-parallel_mode 0 -xml /home/test/TESTS_release/BUG_28285_41-pager/scripts/../test_data/BUG_28285_41-pager.tif\"", 
+                "memory_peak": "157868"
+            }
+        ], 
+        "options": "/home/test/TESTS_release/BUG_28285_41-pager/scripts/timeout -m 250000 /home/test/PHOcr_C2404_D3_linux_release/bin/PHOcrExe -parallel_mode 0 -xml /home/test/TESTS_release/BUG_28285_41-pager/scripts/../test_data/BUG_28285_41-pager.tif", 
+        "stderr": "FINISHED CPU, don't pass over 250000KB", 
+        "stdout": "", 
+        "time": 102.13061308860779
+    }, 
+    "FULL_COLOR_50_PAGES": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-reg_data -ocr english /home/test/TESTS_release/FULL_COLOR_50_PAGES/test_data/FULL_COLOR_50_PAGES.tif\"", 
+                "memory_peak": "149000"
+            }
+        ], 
+        "options": "-reg_data -ocr english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 163.79213976860046
+    }, 
+    "FULL_COLOR_60_PAGES": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-excel -ocr -layout -pdfa english /home/test/TESTS_release/FULL_COLOR_60_PAGES/test_data/FULL_COLOR_60_PAGES.tif\"", 
+                "memory_peak": "319360"
+            }
+        ], 
+        "options": "-excel -ocr -layout -pdfa english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 329.27773594856262
+    }, 
+    "NO_OCR_PDF_PDFA_25_Text_Graph_2_000": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-pdfa -no-ocr-pdf english /home/test/TESTS_release/NO_OCR_PDF_PDFA_25_Text_Graph_2_000/test_data/NO_OCR_PDF_PDFA_25_Text_Graph_2_000.bmp\"", 
+                "memory_peak": "18364"
+            }
+        ], 
+        "options": "-pdfa -no-ocr-pdf english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 0.099548816680908203
+    }, 
+    "NSW-Multi-AP-with-PO-Invoice-19052015113740": {
+        "exitcode": 0, 
+        "memory": [
+            {
+                "command": "\"-word english /home/test/TESTS_release/NSW-Multi-AP-with-PO-Invoice-19052015113740/test_data/NSW Multi AP with PO Invoice-19052015113740.tif\"", 
+                "memory_peak": "126776"
+            }
+        ], 
+        "options": "-word english", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 33.016324996948242
+    }, 
+    "Single_File_10_PAGES": {
+        "exitcode": 0, 
+        "options": "-pdfa-photo-halftone --export-single-file english /home/test/TESTS_release/Single_File_10_PAGES/test_data/Single_File_10_PAGES.tif", 
+        "stderr": "", 
+        "stdout": "", 
+        "time": 53.606165170669556
+    }, 
+    "UNIT_TEST_PHOcrDocumentConstructorTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/9 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 0.1660468578338623
+    }, 
+    "UNIT_TEST_PHOcrSetting_MemoryPeakThresholdTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/0 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 0
+    }, 
+    "UNIT_TEST_PHOcrSetting_OCRMultiPagesInParallelTest": {
+        "exitcode": 0, 
+        "memory": [], 
+        "stderr": "There are 0/7 test case errors.\n\n ======== Error test cases =======\n", 
+        "stdout": "", 
+        "time": 58.812716722488403
+    }
+}

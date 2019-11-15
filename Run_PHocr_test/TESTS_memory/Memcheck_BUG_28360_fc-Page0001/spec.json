@@ -1,0 +1,90 @@
+{
+    "_id": "Memcheck_BUG_28360_fc-Page0001", 
+    "binary_test_information": {}, 
+    "component": "PHOcrExe", 
+    "enable": true, 
+    "error_flags": {
+        "linux": false, 
+        "windows": false
+    }, 
+    "functionalities": [
+        "export_pdf"
+    ], 
+    "history_data": {
+        "linux": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {
+                "3": {
+                    "Memory peak": 394304
+                }
+            }, 
+            "tesseract": {}
+        }, 
+        "windows": {
+            "abbyy_client": {}, 
+            "esdk": {}, 
+            "phocr_on_board": {}, 
+            "phocr_test_machine": {}, 
+            "tesseract": {}
+        }
+    }, 
+    "product": "phocr", 
+    "tags": {
+        "BugNumbers": [
+            "28360"
+        ], 
+        "CommandLineOptions": "-optimize-pdf-file-size", 
+        "DocumentName": "", 
+        "DocumentPage": 0, 
+        "DocumentType": "", 
+        "GetAccuracy": false, 
+        "HasBarcode": false, 
+        "HasChart": true, 
+        "HasContrast": false, 
+        "HasImage": true, 
+        "HasLogoCompany": false, 
+        "HasTable": true, 
+        "HasTextbox": false, 
+        "HasWaterMask": false, 
+        "Is200dpi": false, 
+        "Is300dpi": true, 
+        "IsClippedImage": false, 
+        "IsCourtDocument": false, 
+        "IsDeskew": false, 
+        "IsETDefault": false, 
+        "IsExcel": false, 
+        "IsExtremeTest": false, 
+        "IsFaxDocument": false, 
+        "IsForm": false, 
+        "IsInvoice": false, 
+        "IsLegalDocument": false, 
+        "IsLetter": false, 
+        "IsMainlyText": false, 
+        "IsMemCheckPeak": false, 
+        "IsMemCheckTest": true, 
+        "IsMultiByteLanguage": false, 
+        "IsMultiColumn": false, 
+        "IsMultiPages": false, 
+        "IsPresentation": false, 
+        "IsPrintAsColor": true, 
+        "IsPrintAsGray": false, 
+        "IsPrintAsMono": false, 
+        "IsPurchaseOrder": false, 
+        "IsRotate": false, 
+        "IsUNLV": false, 
+        "Language": [
+            "japanese"
+        ], 
+        "NonIntegration": false, 
+        "Platform": [
+            "linux", 
+            "windows"
+        ]
+    }, 
+    "weights": {
+        "linux": 74.75719404220581, 
+        "windows": 500
+    }
+}

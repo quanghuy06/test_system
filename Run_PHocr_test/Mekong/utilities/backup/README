@@ -1,0 +1,35 @@
+1. Setup automount:
+
+    To setup automount, edit file /etc/fstab with sudo
+    Then add following command
+    NTFS:
+    > UUID=71E9955B634E6774 /media/ocr5/backup ntfs uid=1000,gid=1000,umask=0022,sync,auto,rw 0 0
+
+    Use id -u <username> to get the userid and id -g <username> to get the groupid.
+
+    EXT4:
+    > UUID=84d5111b-ae28-4fea-9f61-f182033621d5 /media/huanlv/data ext4 defaults 0 0
+
+    To check UUID of disk use:
+    > sudo blkid
+
+2. Setup crontab on machine
+    Before set crontab on machine, copy backup script to test machine.
+    Prepare shell script files execute the work, then configure crontab by command:
+
+    crontab -e
+
+    Then you will add the command with following syntax:
+
+    Syntax of crontab (field description)
+
+    1 2 3 4 5 /path_to_script.sh
+
+    Where,
+
+    1: Minute (0-59)
+    2: Hours (0-23)
+    3: Day (0-31)
+    4: Month (0-12 [12 == December])
+    5: Day of the week(0-7 [7 or 0 == sunday])
+    /path_to_script.sh – Script or command name to schedule
