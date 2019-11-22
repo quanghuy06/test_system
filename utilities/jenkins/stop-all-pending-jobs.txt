@@ -1,0 +1,11 @@
+1. Access to 10.116.41.96:8080/script
+
+2. Paste these code to console
+
+import hudson.model.*
+
+def q = Jenkins.instance.queue
+
+q.items.findAll { it.task.name.startsWith('PHOcr-') }.each { q.cancel(it.task) }
+
+3. Run

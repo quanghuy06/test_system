@@ -1,0 +1,48 @@
+{
+  "linux": {
+    "PHOcr" : {
+      "release" : {
+        "cwd" : "PHOcr",
+        "command" : "./phobuild.sh release",
+        "build_result" : "build_release/build",
+        "packaging" : ".tgz"
+      },
+      "memory" : {
+        "cwd" : "PHOcr",
+        "command" : "./phobuild.sh release gcc",
+        "build_result" : "build_release/build",
+        "packaging" : ".tgz"
+      }
+    },
+    "Hanoi" : {
+      "cwd" : "HanoiWorkflow/install/HanoiInstallerLinux",
+      "command" : "./GenerateHanoiTesseractInstaller.sh",
+      "build_result" : ".",
+      "packaging" : "Hanoi_installer.run"
+    }
+  },
+  "windows": {
+    "PHOcr": {
+      "release" : {
+        "cwd": "PHOcr",
+        "command": "./phobuild.bat",
+        "build_result": "vs2015/PHOcr/PHOcrSetup/bin/Release",
+        "packaging": ""
+      },
+      "debug" : {
+        "cwd": "PHOcr",
+        "command": "./phobuild.bat Debug",
+        "build_result": "vs2015/PHOcr/PHOcrSetup/bin/Debug",
+        "packaging": ""
+      }
+    },
+    "Hanoi": {
+      "release":{
+        "cwd": "HanoiWorkflow",
+        "command": "./hanoibuild.bat True",
+        "build_result": "install/HanoiInstaller/HanoiInstaller/bin/Release",
+        "packaging": "HanoiInstaller.exe"
+      }
+    }
+  }
+}

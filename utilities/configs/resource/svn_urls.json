@@ -1,0 +1,10 @@
+{
+  "TrainingData": "http://10.116.41.162/svn/phocr/trunk/src/PhocrData/TrainingData/",
+  "Hanoi-data": "http://10.116.41.162/svn/phocr/trunk/src/Hanoi-data/",
+  "phocr_lib" : "http://10.116.41.162/svn/phocr/trunk/src/PhocrData/phocr_lib/",
+  "mekong_3rd" : "http://10.116.41.162/svn/phocr/trunk/src/mekong-3rd/",
+  "phocr_hanoi_3rdparty": "http://10.116.41.162/svn/phocr/trunk/src/Phocr-Hanoi%203rd/",
+  "3rdparty_python": "http://10.116.41.162/svn/phocr/trunk/src/phocr-3rd/3rdparty_python/python3.5.2/",
+  "python_portable": "http://10.116.41.162/svn/phocr/trunk/src/phocr-3rd/python-portable/",
+  "change_log": "http://vc1.tsdv.com.vn/2019B/phocr/trunk/doc/02.OCR%20Engine/02.Design/Log/"
+}

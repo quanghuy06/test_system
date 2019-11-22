@@ -1,0 +1,15 @@
+{
+    "to_address" : [
+      "nam.leduc@toshiba-tsdv.com",
+      "APoirier@Toshiba-TAP.com"
+      ],
+    "cc_address": [
+      "ocrpoc@toshiba-tsdv.com"
+    ],
+    "subject": "Report Accuracy and Memory peak for D",
+    "message": "This is automation email sent from Gerrit. Results is sent after execute post process!\n------------------------------------------------------***-------------------------------------------------------",
+    "list_file_send": [
+      "AccuracyReportD*.xlsx",
+      "MemoryPeakReport*.xlsx"
+    ]
+}

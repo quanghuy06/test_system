@@ -1,0 +1,23 @@
+class CommitMessage:
+    PROJECT = "Project"
+    CHANGE_DETAIL = "Change Details"
+    NAME = "NAME"
+    SUMMARY = "SUMMARY"
+    DESCRIPTION = "DESCRIPTION"
+    ARCHITECTURE = "ARCHITECTURE"
+    AUTOMATION_TEST_INFORMATION = "AUTOMATION TEST INFORMATION"
+    CHANGE_HISTORY = "CHANGE HISTORY"
+
+    class AutomationTestInformation:
+        WORKSPACE = "Workspace:"
+        TESTCASEID = "Testcase ID:"
+        FUNCTIONALITIES = "Functionalities:"
+        PRODUCTS = "Products:"
+        Components = "Components:"
+        TAGS = "Tags:"
+        HANOI_VERSION = "Hanoi version:"
+        IS_CHECK_MEMORY_LEAK = "Is Checking MemoryLeak:"
+        IS_CHECK_MEMORY_PEAK = "Is Checking MemoryPeak:"
+        IS_BUILD_HANOI = "Is build Hanoi:"
+        HANOI_CHECKOUT_COMMAND = "Hanoi Checkout Command:"
+        CUSTOM_QUERY = "Custom Query:"

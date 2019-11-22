@@ -1,0 +1,72 @@
+[<project>] <Summary about your change>
+
+Change Details                                dd/mm/yyyy
+
+NAME
+  Project "<project>"
+
+SUMMARY
+  <Summary about your change>
+
+DESCRIPTION
+  What issue?:
+    <If there are an bug fixing, please write like following example>
+    Bug: #21627
+    <content>
+  Why it occurs?:
+    <content>
+  How to fix?:
+    <content>
+  What impact by this change?:
+    <Are there any known issues? What are the possible side-effects or risk areas?>
+    <List test cases have not good impact from this change>
+  How to test?:
+    <related test cases and how to check the result>
+
+API CHANGE
+  <If you have any api change, please note here>
+  What API are removed?:
+    <content>
+  What API are added?:
+    <content>
+  What API are changed?:
+    <content>
+
+CHANGE HISTORY
+  <Each patchset change reason>
+
+ARCHITECTURE
+  This change must test on platform: linux, board
+
+AUTOMATION TEST INFORMATION
+Workspace:
+Testcase ID:
+Functionalities:
+Products:
+Components:
+Tags:
+ID Contains:
+Platforms:
+Hanoi version:
+Is Checking MemoryLeak:
+Is Checking MemoryPeak:
+Is build Hanoi:
+Hanoi Checkout Command:
+Custom Query:
+Test ET Default:
+
+
+<Just description about autmation information, please don't include inside your commit message>
+======================= Automation test information explaination
+
+Hanoi version:
+  with Hanoi version, you only need to specify the number of version,
+  not name of build package.
+  Example: Hanoi version: 30. Test system will get Hanoi_installer_D30.run
+  for linux and HanoiInstaller_D30.exe for Windows
+
+Hanoi Checkout Command:
+  custom command which user can define for checkout Hanoi source code to
+  define Hanoi change which integrate with current PHOcr change.
+  Developer can go to gerrit Hanoi change and choose "Download..." at the top
+  right of screen. Copy text at line "Checkout" and paste to commit message

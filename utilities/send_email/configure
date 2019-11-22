@@ -1,0 +1,5 @@
+[smtp]
+server=mail.toshiba-tsdv.com
+port=25
+user=gerrit-review@toshiba-tsdv.com.vn
+password=

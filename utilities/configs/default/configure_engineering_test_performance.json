@@ -1,0 +1,47 @@
+{
+   "previous_build" : {
+      "build_path" : "/media/ocr3/data/Jenkins/PHOcr-Integration-Test/{build_number}/archive/linux/build/PHOcr_{build_id}_linux_release.tgz",
+      "parameters" : "/media/ocr3/data/Jenkins/PHOcr-Integration-Test/{build_number}/archive/info/parameters.json",
+      "git_command" : "git fetch ssh://manhdt@10.116.41.96:29418/PHOcr {ref_spec} && git checkout FETCH_HEAD",
+      "ip" : "10.116.41.96",
+      "username" : "ocr3",
+      "password" : "1"
+   },
+   "current_build" : {
+      "build_path" : "/home/ocr3/.jenkins/workspace/PHOcr-Engineering-Test/linux/build/PHOcr_{build_id}_linux_release.tgz",
+      "parameters" : "/home/ocr3/.jenkins/workspace/PHOcr-Engineering-Test/info/parameters.json",
+      "git_command" : "git fetch ssh://manhdt@10.116.41.96:29418/PHOcr {ref_spec} && git checkout FETCH_HEAD",
+      "ip" : "10.116.41.96",
+      "username" : "ocr3",
+      "password" : "1"
+   },
+   "change_build_number" : {
+      "path" : "/home/ocr3/.jenkins/jobs/PHOcr-Integration-Test/change_build_mapping.json",
+      "ip" : "10.116.41.96",
+      "username" : "ocr3",
+      "password" : "1"
+   },
+   "change_delta" : {
+      "path" : "/home/ocr3/.jenkins/jobs/gerrit-projects/delta_change_mapping.json",
+      "ip": "10.116.41.96",
+      "username" : "ocr3",
+      "password" : "1"
+   },
+   "current_version" : {
+      "path" : "/home/ocr3/.jenkins/jobs/PHOcr-Integration-Test/delta_version_projects.json",
+      "ip" : "10.116.41.96",
+      "username" : "ocr3",
+      "password" : "1"
+   },
+   "python": "python2.7",
+   "mekong" : "/home/ocr3/.jenkins/workspace/PHOcr-Engineering-Test/Mekong/",
+   "run_performance_analysis_path" : "/home/ocr3/.jenkins/workspace/PHOcr-Engineering-Test/Mekong/utilities/performance_analysis/run_performance_analysis.py",
+   "board_ip": [
+      "10.116.41.235",
+      "10.116.41.236",
+      "10.116.41.237",
+      "10.116.41.238",
+      "10.116.41.239"
+   ],
+   "performance_report_link" : "http://vc1.tsdv.com.vn/2019B/phocr/trunk/other/Report/TimePerformanceReport/OnBoard/Each_delta_ET/"
+}
